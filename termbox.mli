@@ -74,3 +74,4 @@ val set_cell_char : ?fg : color -> ?bg : color -> int -> int -> char -> unit
 val set_cell_utf8 : ?fg : color -> ?bg : color -> int -> int -> int32 -> unit
 
 val poll_event : unit -> event
+val peek_event : int -> event option
